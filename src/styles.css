@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Hello Valentina';
+  src: url('/assets/Hello_Valentina.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'Hello Valentina', sans-serif;
+}
