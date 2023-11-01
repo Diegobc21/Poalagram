@@ -6,7 +6,10 @@ import {CardComponent} from "./component/card/card.component";
 const routes: Routes = [
   {
     path: '',
-    component: MainComponent,
+    component: MainComponent
+  },
+  {
+    path: '',
     children: [
       {
         path: 'fotios',
@@ -16,9 +19,9 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: ''
+    redirectTo: '',
+    pathMatch: 'full'
   }
-
 ];
 
 @NgModule({

@@ -11,8 +11,7 @@ import {AppRoutingModule} from "../app-routing.module";
     CommonModule,
     RouterOutlet,
     AppRoutingModule,
-  ],
-  exports: [MainComponent]
+  ]
 })
 export class PagesModule {
 }

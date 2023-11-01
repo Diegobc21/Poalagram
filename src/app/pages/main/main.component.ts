@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, inject} from '@angular/core';
+import {NavigationService} from "../../core/services/navigation.service";
 
 @Component({
   selector: 'app-main',
@@ -6,7 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
+
+  private navigationService: NavigationService = inject(NavigationService)
+
   public goToNextPage(): void {
-    console.log('')
+    this.navigationService.navigateByUrl('fotios').then();
   }
 }
