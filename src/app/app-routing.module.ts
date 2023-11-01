@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {MainComponent} from "./pages/main/main.component";
 import {CardComponent} from "./component/card/card.component";
+import {PictureComponent} from "./pages/picture/picture.component";
 
 const routes: Routes = [
   {
@@ -9,11 +10,12 @@ const routes: Routes = [
     component: MainComponent
   },
   {
-    path: '',
+    path: 'mmmsshi',
+    component: CardComponent,
     children: [
       {
         path: 'fotios',
-        component: CardComponent
+        component: PictureComponent
       }
     ]
   },
