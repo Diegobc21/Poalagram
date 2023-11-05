@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "regalo2",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

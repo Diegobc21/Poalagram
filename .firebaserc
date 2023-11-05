@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "poalagram": {
+      "hosting": {
+        "regalo2": [
+          "poalagram"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "poalagram"
+  }
+}
