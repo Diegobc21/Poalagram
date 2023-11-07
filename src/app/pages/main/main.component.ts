@@ -16,7 +16,7 @@ export class MainComponent {
   }
 
   public goToNextPage(): void {
-    // this.router.navigate(['mmmsshi/fotios'], {relativeTo: this.route});
-    this.navigationService.navigateByUrl('mmmsshi/fotios').then();
+    this.router.navigate(['mmmsshi/fotios'], {relativeTo: this.route});
+    // this.navigationService.navigateByUrl('mmmsshi/fotios').then();
   }
 }
