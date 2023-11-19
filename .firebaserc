@@ -2,7 +2,7 @@
   "targets": {
     "poalagram": {
       "hosting": {
-        "regalo2": [
+        "poalagram": [
           "poalagram"
         ]
       }

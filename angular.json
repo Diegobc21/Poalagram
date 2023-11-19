@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "regalo2": {
+    "poalagram": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/regalo2",
+            "outputPath": "dist/poalagram",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "regalo2:build:production"
+              "buildTarget": "poalagram:build:production"
             },
             "development": {
-              "browserTarget": "regalo2:build:development"
+              "buildTarget": "poalagram:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "regalo2:build"
+            "buildTarget": "poalagram:build"
           }
         },
         "test": {
@@ -96,7 +96,7 @@
           "builder": "@angular/fire:deploy",
           "options": {
             "version": 2,
-            "browserTarget": "regalo2:build:production"
+            "buildTarget": "poalagram:build:production"
           }
         }
       }

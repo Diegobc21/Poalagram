@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "regalo2",
+      "target": "poalagram",
       "source": ".",
       "frameworksBackend": {}
     }
